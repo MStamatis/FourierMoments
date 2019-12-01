@@ -9,8 +9,13 @@ import numpy as np
 from numpy import *
 
 im = array(Image.open(r"MyPNG.png"))
+
 S_Out = FourierMoments(im,[180,180])
+
 from matplotlib import pyplot as plt
+
 plt.imshow(S_Out)
+
 plt.show()
+
 
