@@ -24,7 +24,7 @@ def FourierMoments(S, a):
 
   B1=np.zeros((b,n))
   r=(n-1)/2
-  for l in range(1,n):
+  for l in range(0,n):
       r2=(l-r-1)
       for k in range(1,b):
           z=-1j*pi*((k-1)*r2)/b
@@ -33,7 +33,7 @@ def FourierMoments(S, a):
 
   B2=np.zeros((b,m))
   r=(n-1)/2
-  for l in range(1,m):
+  for l in range(0,m):
       r2=(l-r-1)
       for k in range(1,bb):
           z=-1j*pi*((k-1)*r2)/bb
