@@ -1,6 +1,14 @@
+"""
+2D Fourier Basis Moments python module
+"""
+
+import numpy as np
+from numpy import *
+
+
 def FourierMoments(S, a):
   """
-  Fourier Moments Basis
+  Fourier Basis Moments
   Parameters
   ----------
   S : numpy array
