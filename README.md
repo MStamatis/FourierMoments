@@ -5,7 +5,7 @@ Ref: Implements `moments basis tomography` from
 https://www.researchgate.net/publication/320567826_A_Web_Based_Scheme_for_Image_Tomography_Applications
 in python
 
--> The input (i.e. image) must has the same widh & height(x,y) and 2D (black & white). If not, you should convert it.
+-> The input (i.e. image) must has the same width & height(x,y) and 2D (black & white). If not, you should convert it.
 
 from PIL import Image
 
